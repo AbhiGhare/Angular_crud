@@ -1,0 +1,182 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "userList": [
+    {
+      "name": "krisana",
+      "email": "krish@1212",
+      "number": "151654684684",
+      "age": "23",
+      "id": 3
+    },
+    {
+      "name": "vedant",
+      "email": "vedu@2323",
+      "number": "4545565646545",
+      "age": "22",
+      "id": 4
+    },
+    {
+      "name": "abhi",
+      "email": "abhi@234",
+      "number": "55465561",
+      "age": "23",
+      "id": 5
+    },
+    {
+      "name": "sarvesh",
+      "email": "sarvesh@15646",
+      "number": "95685645646",
+      "age": "12",
+      "id": 6
+    },
+    {
+      "name": "ganu ",
+      "email": "bhbh@vv",
+      "number": "000125",
+      "age": "1",
+      "id": 7
+    },
+    {
+      "name": "om",
+      "email": "om@g.com",
+      "number": "15646",
+      "age": "12",
+      "id": 8
+    },
+    {
+      "name": "om11",
+      "email": "om.gvjg",
+      "number": "432",
+      "age": "10",
+      "id": 9
+    },
+    {
+      "name": "om",
+      "email": "omaa@h.",
+      "number": "4534",
+      "age": "01",
+      "id": 10
+    },
+    {
+      "name": "kgf",
+      "email": "kgf@g.com",
+      "number": "12345678",
+      "age": "100",
+      "id": 11
+    },
+    {
+      "name": "kgf2",
+      "email": "kgf2@g.in",
+      "number": "456161",
+      "age": "10",
+      "id": 12
+    },
+    {
+      "name": "coco 1",
+      "email": "acc@nkl.lo",
+      "number": "53",
+      "age": "1",
+      "id": 13
+    },
+    {
+      "name": "krishana2154155",
+      "email": "krish@g.com",
+      "number": "456123",
+      "age": "1000",
+      "id": 14
+    },
+    {
+      "name": "sadad",
+      "email": "da@dsfs.af",
+      "number": "5151",
+      "age": "45",
+      "id": 15
+    },
+    {
+      "name": "ABHISHEK GHARE",
+      "email": "ghareabhishek4@gmail.com",
+      "number": "09689590014",
+      "age": "23",
+      "id": 16
+    },
+    {
+      "name": "s2345",
+      "email": "s@g.com",
+      "number": "12",
+      "age": "123",
+      "id": 17
+    }
+  ],
+  "userData": [
+    {
+      "name": "Abhishek ",
+      "surname": "ghare",
+      "city": "kolhapur",
+      "marriage": "unmarried",
+      "dob": "2023-06-13T18:30:00.000Z",
+      "gender": "male",
+      "id": 2
+    },
+    {
+      "name": "Tejas",
+      "surname": "Dabare",
+      "city": "pune",
+      "marriage": "unmarried",
+      "dob": "2000-12-29T18:30:00.000Z",
+      "gender": "male",
+      "id": 5
+    },
+    {
+      "name": "vedant",
+      "surname": "kukade",
+      "city": "pune",
+      "marriage": "unmarried",
+      "dob": "2023-06-12T18:30:00.000Z",
+      "gender": "male",
+      "id": 6
+    },
+    {
+      "name": "krushana",
+      "surname": "deshmukha",
+      "city": "pune",
+      "marriage": "unmarried",
+      "dob": "2023-06-16T18:30:00.000Z",
+      "gender": "male",
+      "id": 7
+    },
+    {
+      "name": "ganesh",
+      "surname": "g",
+      "city": "pune",
+      "marriage": "married",
+      "dob": "2023-06-12T18:30:00.000Z",
+      "gender": "male",
+      "id": 8
+    },
+    {
+      "name": "vikram",
+      "surname": "patil",
+      "city": "sangali",
+      "marriage": "unmarried",
+      "dob": "2000-01-27T18:30:00.000Z",
+      "gender": "male",
+      "id": 9
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

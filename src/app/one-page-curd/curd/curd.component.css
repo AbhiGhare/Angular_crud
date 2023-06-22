@@ -1,0 +1,65 @@
+*{
+    margin: 0;padding: 0;
+}
+.nav{
+    padding: 20px;
+}
+.add{
+    margin-left: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 30px;
+}
+.top,
+.bottom {
+    display: flex;
+    justify-content: space-around;
+}
+.form{
+        /* margin: 0px auto; */
+        border: 1px solid white;
+        width: 550px;
+        position: absolute;
+        right: 15px;
+        top: 119px;
+        float: right;
+        border-radius: 5px;
+        background-color: white;
+        box-shadow: -2px 11px 30px 8px grey;
+        z-index: 1;
+}
+
+table {
+    width: 90%;
+  }
+  
+   /* .mat-mdc-form-field {
+    font-size: 14px;
+    width: 90%;
+    position: relative;
+    left: 80px;
+    margin-top: 10px;
+  } */
+  .search{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  /*td, th {
+    width: 25%;
+  } */
+  .mat-elevation-z8{
+    width: 98vw;
+    height: 469px;
+    left: 15px;
+    position: relative;
+  }
+  .mat-mdc-table .mdc-data-table__row {
+    height: 71px !important;
+}

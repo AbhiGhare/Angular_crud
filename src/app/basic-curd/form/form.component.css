@@ -1,0 +1,21 @@
+form{
+    width: 600px;
+    margin: 100px auto;
+    border: 1px solid ;
+    text-align: center;
+}
+.top,
+.bottom {
+    display: flex;
+    justify-content: space-around;
+}
+.top div,
+.bottom div {
+    display: flex;
+    flex-direction: column;
+}
+button{
+    /* float: right; */
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,43 @@
+<!-- <p>form works!</p> -->
+<div class="bg">
+    <form [formGroup]="user" (ngSubmit)="post()" >
+        <h4>{{title}}</h4>
+        <div *ngIf="input1">
+            <input type="text" placeholder="name" formControlName="name"> <button (click)="fun1() "><mat-icon>arrow_forward</mat-icon></button>
+        </div>
+        <div *ngIf="input2">
+            <input type="text" placeholder="surname" formControlName="surname"> <button (click)="fun2()"><mat-icon>arrow_forward</mat-icon></button>
+        </div>
+        <div *ngIf="input3">
+            <input type="text" placeholder="age" formControlName="age"> <button (click)="fun3()"><mat-icon>arrow_forward</mat-icon></button>
+        </div>
+        <div *ngIf="input4">
+            <input type="text" placeholder="email" formControlName="email"> <button (click)="fun4()"><mat-icon>arrow_forward</mat-icon></button>
+        </div>
+        <div *ngIf="input5">
+            <input type="text" placeholder="phone_number" formControlName="phone_number"> <button (click)="fun5()"><mat-icon>arrow_forward</mat-icon></button>
+        </div>
+        <div *ngIf="input6">
+                <div class="input">
+                    <input matInput [matDatepicker]="picker" placeholder="DoB" formControlName="DOB">
+                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker touchUi #picker></mat-datepicker>
+                </div>
+                <button (click)="fun6()"><mat-icon>arrow_forward</mat-icon></button>
+            <!-- <mat-form-field class="example-full-width">
+                 <mat-label>Date of Birth</mat-label> --
+                <input matInput [matDatepicker]="picker" formControlName="DOB">
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker touchUi #picker></mat-datepicker>
+              </mat-form-field>
+              <button (click)="fun6()"><mat-icon>arrow_forward</mat-icon></button> -->
+        </div>
+        <div *ngIf="input7">
+            <input type="text" placeholder="city" formControlName="city"> <button (click)="fun7()"><mat-icon>arrow_forward</mat-icon></button>
+        </div>
+        <div *ngIf="input8" class="wrap">
+            <button type="submit"  class="submit button">submit</button>
+        </div>
+    </form>
+</div>

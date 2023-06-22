@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+*{
+    
+}
+/* .mat-mdc-menu-panel.mat-mdc-menu-panel {
+    min-width: 251px !important;
+    max-width: 625px !important;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    top: 7px !important;
+} */
+
+.mat-sort-header-container{
+    color: white !important;
+  }
+
+
+.mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background-color: transparent !important;
+    width: 100%;
+  }

@@ -1,0 +1,43 @@
+<!-- <p>dashboard works!</p>
+
+<form [formGroup]="user" (ngSubmit)="post()">
+<div>
+    <input type="text" placeholder="name" formControlName="name"  *ngIf="f1"><br><button style="position: absolute; left: 200px;"  *ngIf="f1" (click)="fun1()">=></button>
+<input type="text" formControlName="surname"  placeholder="surname" *ngIf="f2"><br><button style="position: absolute; left: 200px;" *ngIf="f2">=></button>
+<input type="number" formControlName="age"  placeholder="age" *ngIf="f3"><br><button *ngIf="f3">=></button>
+<input type="text" formControlName="email"  placeholder="email" *ngIf="f4"><br><button *ngIf="f4">=></button>
+<input type="text" formControlName="phone_number"  placeholder="phone num" *ngIf="f5"><br><button *ngIf="f5">=></button>
+<input type="text" formControlName="DOB"  placeholder="DOB" *ngIf="f6"><br><button *ngIf="f6">=></button >
+<input type="text" formControlName="city"  placeholder="city" *ngIf="f7"><br><button *ngIf="f7">=></button>
+<button>=></button>
+<button *ngIf="f8" type="submit">submit</button>
+</div>
+
+</form> -->
+
+<div class="footer">
+    <mat-tab-group headerPosition="below">
+        <mat-tab label="First" #first>
+         <ng-template mat-tab-label>
+            <mat-icon class="example-tab-icon">assignment</mat-icon>
+            <a href="#second"></a>
+        </ng-template>
+          <!-- Content 1  -->
+          <app-form></app-form>
+        </mat-tab>
+        <mat-tab label="Second" #second>
+            <ng-template mat-tab-label>
+                <mat-icon class="example-tab-icon">table_chart</mat-icon>
+                
+              </ng-template>
+               <!-- Content 2  -->
+               <app-table></app-table>
+              </mat-tab>
+        <mat-tab label="Third"> 
+            <ng-template mat-tab-label>
+                <mat-icon class="example-tab-icon">dashboard</mat-icon>
+                
+              </ng-template>
+            Content 3 </mat-tab>
+    </mat-tab-group>
+</div>div>

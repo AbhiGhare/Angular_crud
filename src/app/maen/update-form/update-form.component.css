@@ -1,0 +1,11 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 30px;
+}
+.top,
+.bottom {
+    display: flex;
+    justify-content: space-around;
+}
